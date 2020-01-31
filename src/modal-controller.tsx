@@ -217,6 +217,7 @@ const ModalControllerProvider = (props: ModalControllerProviderProps) => {
           ]
         }
         onRequestClose={hideTopModal}
+        hardwareAccelerated={true}
       >
         <TouchableWithoutFeedback
           onPress={isCancelable ? hideTopModal : undefined}
